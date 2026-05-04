@@ -51,3 +51,19 @@ npm run dev
 ```
 
 The app uses the configured MockAPI endpoint by default.
+
+## GitHub Pages Deployment
+
+The repository includes `.github/workflows/deploy.yml`.
+
+1. Push changes to the `main` branch.
+2. Open the repository on GitHub.
+3. Go to `Settings` > `Pages`.
+4. Set `Source` to `GitHub Actions`.
+5. Wait for the `Deploy to GitHub Pages` action to finish.
+
+The deployed site URL will be:
+
+```text
+https://asireddy-lokesh-reddy.github.io/Employee-Manager/
+```
