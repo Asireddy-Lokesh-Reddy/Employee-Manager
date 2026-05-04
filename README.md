@@ -62,8 +62,14 @@ The repository includes `.github/workflows/deploy.yml`.
 4. Set `Source` to `GitHub Actions`.
 5. Wait for the `Deploy to GitHub Pages` action to finish.
 
-The deployed site URL will be:
+The default GitHub Pages URL will be:
 
 ```text
 https://asireddy-lokesh-reddy.github.io/Employee-Manager/
+```
+
+The repository also includes `public/CNAME` for this custom domain:
+
+```text
+employee-management-system.com
 ```
