@@ -52,24 +52,10 @@ npm run dev
 
 The app uses the configured MockAPI endpoint by default.
 
-## GitHub Pages Deployment
 
-The repository includes `.github/workflows/deploy.yml`.
 
-1. Push changes to the `main` branch.
-2. Open the repository on GitHub.
-3. Go to `Settings` > `Pages`.
-4. Set `Source` to `GitHub Actions`.
-5. Wait for the `Deploy to GitHub Pages` action to finish.
+The  final deployment result using Netlify
+<img width="1900" height="908" alt="Screenshot 2026-05-05 002244" src="https://github.com/user-attachments/assets/e046dcf2-23fe-4f7f-aa06-d0beab42eb9e" />
 
-The default GitHub Pages URL will be:
+<img width="1847" height="879" alt="image" src="https://github.com/user-attachments/assets/3aed0be8-cb13-4d17-ad57-31143f117764" />
 
-```text
-https://asireddy-lokesh-reddy.github.io/Employee-Manager/
-```
-
-The repository also includes `public/CNAME` for this custom domain:
-
-```text
-employee-management-system.com
-```
