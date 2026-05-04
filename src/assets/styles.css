@@ -1,0 +1,127 @@
+:root {
+  --surface: #ffffff;
+  --page-bg: #f4f7fb;
+  --ink: #172033;
+  --muted: #68748a;
+  --line: #dbe3ef;
+  --accent: #166534;
+  --accent-soft: #dcfce7;
+  --focus: #0d6efd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: var(--page-bg);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.top-band {
+  background: #10243e;
+  color: #ffffff;
+  border-bottom: 4px solid #22c55e;
+}
+
+.page-title {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.page-subtitle {
+  color: #c8d6ea;
+  max-width: 760px;
+}
+
+.metric-panel,
+.tool-panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+}
+
+.metric-label {
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.metric-value {
+  color: #10243e;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.api-badge {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid #86efac;
+}
+
+.form-label {
+  color: #23324d;
+  font-weight: 700;
+}
+
+.form-control,
+.form-select {
+  border-color: #cbd5e1;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--focus);
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.18);
+}
+
+.table {
+  vertical-align: middle;
+}
+
+.table thead th {
+  background: #eef4fb;
+  color: #22304a;
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.employee-id {
+  color: #0f5132;
+  font-weight: 700;
+}
+
+.empty-state {
+  border: 1px dashed #b6c4d8;
+  border-radius: 8px;
+  color: var(--muted);
+}
+
+.action-cell {
+  min-width: 160px;
+}
+
+@media (max-width: 575.98px) {
+  .page-title {
+    font-size: 1.55rem;
+  }
+
+  .metric-value {
+    font-size: 1.45rem;
+  }
+
+  .action-cell {
+    min-width: 130px;
+  }
+}
+
