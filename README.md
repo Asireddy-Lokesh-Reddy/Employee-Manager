@@ -54,7 +54,7 @@ The app uses the configured MockAPI endpoint by default.
 
 
 
-The  final deployment result using Netlify
+# The  final deployment result using Netlify
 <img width="1900" height="908" alt="Screenshot 2026-05-05 002244" src="https://github.com/user-attachments/assets/e046dcf2-23fe-4f7f-aa06-d0beab42eb9e" />
 
 <img width="1847" height="879" alt="image" src="https://github.com/user-attachments/assets/3aed0be8-cb13-4d17-ad57-31143f117764" />
